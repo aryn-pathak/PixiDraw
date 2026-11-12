@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+<rect width="210" height="297" fill="#ffffff"/>
+<path id="grid-fine" d="M21 24L21 264 M25 24L25 264 M29 24L29 264 M37 24L37 264 M41 24L41 264 M45 24L45 264 M53 24L53 264 M57 24L57 264 M61 24L61 264 M69 24L69 264 M73 24L73 264 M77 24L77 264 M85 24L85 264 M89 24L89 264 M93 24L93 264 M101 24L101 264 M105 24L105 264 M109 24L109 264 M117 24L117 264 M121 24L121 264 M125 24L125 264 M133 24L133 264 M137 24L137 264 M141 24L141 264 M149 24L149 264 M153 24L153 264 M157 24L157 264 M165 24L165 264 M169 24L169 264 M173 24L173 264 M181 24L181 264 M185 24L185 264 M189 24L189 264 M17 28L193 28 M17 32L193 32 M17 36L193 36 M17 44L193 44 M17 48L193 48 M17 52L193 52 M17 60L193 60 M17 64L193 64 M17 68L193 68 M17 76L193 76 M17 80L193 80 M17 84L193 84 M17 92L193 92 M17 96L193 96 M17 100L193 100 M17 108L193 108 M17 112L193 112 M17 116L193 116 M17 124L193 124 M17 128L193 128 M17 132L193 132 M17 140L193 140 M17 144L193 144 M17 148L193 148 M17 156L193 156 M17 160L193 160 M17 164L193 164 M17 172L193 172 M17 176L193 176 M17 180L193 180 M17 188L193 188 M17 192L193 192 M17 196L193 196 M17 204L193 204 M17 208L193 208 M17 212L193 212 M17 220L193 220 M17 224L193 224 M17 228L193 228 M17 236L193 236 M17 240L193 240 M17 244L193 244 M17 252L193 252 M17 256L193 256 M17 260L193 260" fill="none" stroke="#d0d0d0" stroke-width="0.1" stroke-linecap="square"/>
+<path id="grid-major" d="M17 24L17 264 M33 24L33 264 M49 24L49 264 M65 24L65 264 M81 24L81 264 M97 24L97 264 M113 24L113 264 M129 24L129 264 M145 24L145 264 M161 24L161 264 M177 24L177 264 M193 24L193 264 M17 24L193 24 M17 40L193 40 M17 56L193 56 M17 72L193 72 M17 88L193 88 M17 104L193 104 M17 120L193 120 M17 136L193 136 M17 152L193 152 M17 168L193 168 M17 184L193 184 M17 200L193 200 M17 216L193 216 M17 232L193 232 M17 248L193 248 M17 264L193 264" fill="none" stroke="#9a9a9a" stroke-width="0.25" stroke-linecap="square"/>
+<rect x="17" y="260" width="4" height="4" fill="none" stroke="#555555" stroke-width="0.35"/>
+<rect x="17" y="256" width="8" height="8" fill="none" stroke="#555555" stroke-width="0.35"/>
+<rect x="17" y="252" width="12" height="12" fill="none" stroke="#555555" stroke-width="0.35"/>
+<rect x="17" y="248" width="16" height="16" fill="none" stroke="#555555" stroke-width="0.35"/>
+<rect x="7" y="7" width="10" height="10" fill="#000000"/>
+<rect x="193" y="7" width="10" height="10" fill="#000000"/>
+<rect x="7" y="280" width="10" height="10" fill="#000000"/>
+<rect x="193" y="280" width="10" height="10" fill="#000000"/>
+<rect x="73" y="272" width="16" height="12" fill="#000000" stroke="#9a9a9a" stroke-width="0.2"/>
+<rect x="97" y="272" width="16" height="12" fill="#ffffff" stroke="#9a9a9a" stroke-width="0.2"/>
+<rect x="121" y="272" width="16" height="12" fill="#808080" stroke="#9a9a9a" stroke-width="0.2"/>
+<text x="94.44" y="15.6" font-family="Helvetica, Arial, sans-serif" font-size="5" font-weight="bold" fill="#555555">PixiDraw</text>
+<text x="35" y="267.4" font-family="Helvetica, Arial, sans-serif" font-size="2.2" fill="#9a9a9a">colour black a box the desired size of pixels</text>
+<text x="48" y="279" font-family="Helvetica, Arial, sans-serif" font-size="2.6" fill="#9a9a9a">colour key</text>
+<text x="94.884" y="294.6" font-family="Helvetica, Arial, sans-serif" font-size="2" fill="#c4c4c4">made by Aryan Pathak</text>
+<text x="18.4" y="267.4" font-family="Helvetica, Arial, sans-serif" font-size="2.2" fill="#9a9a9a">1</text>
+<text x="22.4" y="267.4" font-family="Helvetica, Arial, sans-serif" font-size="2.2" fill="#9a9a9a">2</text>
+<text x="26.4" y="267.4" font-family="Helvetica, Arial, sans-serif" font-size="2.2" fill="#9a9a9a">3</text>
+<text x="30.4" y="267.4" font-family="Helvetica, Arial, sans-serif" font-size="2.2" fill="#9a9a9a">4</text>
+</svg>
