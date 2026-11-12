@@ -4,7 +4,7 @@ A pixel art software which converts drawn pixels on a page to digital assets.
 
 **Try it:** https://aryn-pathak.github.io/PixiDraw/
 
-Drawing pixel art with a mouse or trackpad is hard, and most people don't have a drawing tablet. PixiDraw lets you draw on a printed graph paper sheet instead. Upload a photo of the sheet and PixiDraw rebuilds the drawing pixel by pixel, ready to edit, animate and export as a PNG or sprite sheet.
+Drawing pixel art with a mouse or trackpad is hard, and most people don't have a drawing tablet. PixiDraw lets you draw on a printed graph paper sheet instead. Upload a photo of the sheet and PixiDraw rebuilds the drawing pixel by pixel, ready to edit, animate and export as a PNG or sprite sheet. I made this initially for Haven Mumbai, a game jam hackathon
 
 ## How to use it
 
