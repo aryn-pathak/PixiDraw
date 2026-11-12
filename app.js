@@ -735,18 +735,18 @@ function renderFrames() {
 }
 
 // sprite sheet: one row, every frame in a cell the size of the frames' combined bounds,
-// with a 1 px transparent gap between frames (1 px of the PNG, whatever the export scale)
-const FRAME_GAP = 1;
+// with a transparent gap of one drawing pixel between frames (scales with the export scale)
+const FRAME_GAP = 1;                      // in drawing pixels
 els.saveAnim.addEventListener('click', () => {
   const u = framesBox(), scale = +els.scale.value;
-  const fw = u.w * scale, fh = u.h * scale, count = state.frames.length;
+  const fw = u.w * scale, fh = u.h * scale, gap = FRAME_GAP * scale, count = state.frames.length;
   const sheet = document.createElement('canvas');
-  sheet.width = fw * count + FRAME_GAP * (count - 1); sheet.height = fh;
+  sheet.width = fw * count + gap * (count - 1); sheet.height = fh;
   const ctx = sheet.getContext('2d');
   state.frames.forEach((f, i) => {
-    ctx.drawImage(drawingCanvas(f, scale), i * (fw + FRAME_GAP) + (f.x - u.x) * scale, (f.y - u.y) * scale);
+    ctx.drawImage(drawingCanvas(f, scale), i * (fw + gap) + (f.x - u.x) * scale, (f.y - u.y) * scale);
   });
-  download(sheet, `pixidraw-sprites-${count}x${fw}x${fh}-gap${FRAME_GAP}.png`);
+  download(sheet, `pixidraw-sprites-${count}x${fw}x${fh}-gap${gap}.png`);
 });
 
 // preview: loops the frames at a fixed rate
